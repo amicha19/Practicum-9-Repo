@@ -17,7 +17,7 @@ public class Main {
 
     // get input
     System.out.print("Enter year: ");
-    year = input.nextInt();
+    int year = input.nextInt();
     
     // init to false
     boolean leap_year = false;
@@ -26,7 +26,7 @@ public class Main {
     if (year % 4 == 0) {
 
       // is also divisible by 100?
-      if (year % 100 = 0) {
+      if (year % 100 == 0) {
 
         // is also divisible by 400?
         if (year % 400 == 0)
